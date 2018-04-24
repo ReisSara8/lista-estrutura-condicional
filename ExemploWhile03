@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+public class ExemploWhile03{
+
+    public static void main(String[] args) {
+        
+        int quantidadeMaxima = 4;
+        int atual = 0;
+
+        while( atual < quantidadeMaxima ){
+            String nome = JOptionPane.showInputDialog
+            ("Digite o seu nome");
+            atual = atual + 1; 
+        }
+    }
+
+    
+}
